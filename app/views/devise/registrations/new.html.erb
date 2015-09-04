@@ -1,0 +1,21 @@
+<%= render "partials/side" %>
+<div class="formHolder">
+<h2>Sign up... and Lets get started :)</h2><br />
+
+<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :email, required: true, placeholder: "Enter email (eg: test@example.com)",label: false,autofocus: true%><br />
+    <%= f.input :password, required: true, label: false,placeholder: "Enter password",hint: ("*#{@minimum_password_length} characters minimum" if @minimum_password_length) %><br />
+    <%= f.input :password_confirmation, placeholder: "confirm password",label: false,required: true %><br />
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Sign up",class: "submit" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+</div>
+<%= render "partials/foot" %>

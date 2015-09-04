@@ -1,0 +1,196 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "landing";
+ @import "test_search";
+/*
+		    /*//*/***************************************
+			*******//*/**********************************
+			**********       *********      *************
+			********    ***  *********  *****  **********
+			*******  *****************  *****  **********
+			*******  *****************  *****  **********
+			*******  *****************  *****  **********
+			********    ***  *********  ****  ***********
+			**********       ***  ****      ******//*/***
+			*********************************************
+			******** © CodeDis - Sumeet(Lead dev) *//*/**
+			*********************************************
+*/
+.container-fluid{padding:0;}
+@mixin trans(){transition:all 0.3s linear;}
+@mixin shad($c:#dfdfdf){box-shadow: 0 0 15px $c;}
+@mixin mho(){color:#F87E62;cursor: pointer; cursor: hand;text-shadow:0 0 1px #F87E62;}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.sideBar{
+	text-align: center;
+	position: fixed;
+	background-color: #576E76;
+	height: 100%;
+	@include shad(#576E76);
+	    .logoHolder{
+	    	background-color: #A9C4CB;
+	    	@include trans();
+				img{
+				width:120px;
+				height: 120px;
+				margin-top: 10%;
+				margin-bottom: 7%;
+				margin-left: 4%;
+				padding-right: 4%;
+
+				}
+			}
+		.sideMenu{
+			line-height: 20px;
+			margin-top: 35%;
+			
+			
+			.m1,.m2,.m3,.m4,.m5{
+				margin-top: 20%;
+				margin-bottom: 6%;
+				padding-top: 3%;
+				padding-bottom:5%;	
+				@include trans();
+
+			}
+			.m5{margin-top: 110%;}
+		}
+}
+
+
+.logoHolder:hover{
+background-color: #08536F;
+@include shad(#08536F);
+}
+.m5:hover{color:#F87E62;cursor: pointer; cursor: hand;text-shadow:0 0 1px #F87E62;}
+.m4:hover{@include mho();}
+.m3:hover{@include mho();}
+.m2:hover{@include mho();}
+.m1:hover{@include mho();}
+
+
+.formHolder{
+	width:70%;
+	margin-left: 15%;
+	margin-top: 6%;
+	line-height: 16px;
+	h2{
+		color:#3A4654;
+		text-shadow:0 0 5px #9AD2D9;
+		margin-bottom: 3%;
+	}
+	.form-control{height: 50px;}
+}
+.submit{
+	width:110px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: #F4CA64;
+	color: #ffffff;
+	font-size:124%;
+	@include trans();
+	margin-bottom: 2%;
+}
+.submit:hover{
+	background-color:#ffffff ;
+	color: #F4CA64;
+}
+.submit-login{
+	width:110px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: #64B898;
+	color: #ffffff;
+	font-size:124%;
+	@include trans();
+	margin-bottom: 2%;
+}
+.submit-login:hover{
+	background-color:#ffffff ;
+	color: #64B898;
+}
+
+.foot{
+	width: 101%;
+	border-top: 4px solid #C09A67;
+	clear: both;
+	margin-top: 7%;
+	padding-top: 2%;
+	ul{list-style: none;}
+	.foot-img{
+		width:180px;
+		height: 40px;
+	}
+}
+li:hover{color:#C09A67;cursor: pointer; cursor: hand;}
+
+/*========== FLASH ==========*/
+.flashN{
+	position: absolute;
+	width: 440px;
+	height: 58px;
+	box-shadow: 1px 1px 8px #50937A;
+	background-color: #6BC2A0;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 30%;	
+	padding-top: 1%;
+	border-radius: 0 0 10px 10px;
+}
+.flashA{
+	position: absolute;
+	width: 440px;
+	height: 58px;
+	box-shadow: 1px 1px 8px #B26060;
+	background-color: #F7AFAF;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 30%;	
+	padding-top: 1%;
+	border-radius: 0 0 10px 10px;
+}
+/*___________________________*/
+
+
+.header{
+	width:101%;
+	border: 2px solid #FFFAF7;
+	box-shadow: 0 0 12px #FFFAF7;
+	padding-right: 0px;
+	.title{
+		padding-top: 6px;
+		padding-left: 40px;
+		img{
+		width:180px;
+		height:40px;}
+
+	}
+	.topButtons{
+		padding-top: 10px;
+		padding-left: 10%;
+		.signUp{color:#9AD2D9;border:none;}
+		.signIn{color:#80CBAE;margin-left: 5%; border:none;}
+		.signOut{color:#B26060;margin-left: 40%; border:none;}
+	}
+}

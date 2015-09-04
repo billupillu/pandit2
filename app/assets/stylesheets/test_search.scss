@@ -1,0 +1,17 @@
+// Place all the styles related to the test_search controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.guide{
+	vertical-align:top;
+	width:101%;
+	height: 142px;
+	background:linear-gradient(27deg,#08536F 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #08536F 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #A9C4CB 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #A9C4CB 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #F6D67B 10px, transparent 10px),
+linear-gradient(#F06861 25%, #9AD2D9 25%, #9AD2D9 50%, transparent 50%, transparent 75%, #9C9E9D 75%, #9C9E9D);
+background-color: #DACA7E;
+background-size: 20px 20px;
+}

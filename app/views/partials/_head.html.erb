@@ -1,0 +1,16 @@
+<div class="row header">
+	
+		<div class="col-md-8 title">
+			<%= image_tag('title.png') %>
+		</div>
+		<div class="col-md-4 topButtons">
+			
+			<% if user=!current_user %>
+			<%= link_to content_tag(:span, " SignUp", class: "glyphicon glyphicon-user"), new_user_registration_path, class: "btn btn-default signUp" %>
+			<%= link_to content_tag(:span, " SignIn", class: "glyphicon glyphicon-log-in"), new_user_session_path, class: "btn btn-default signIn" %>
+			<%else%>
+			<%= link_to content_tag(:span, " SignOut", class: "glyphicon glyphicon-log-out"), destroy_user_session_path, method: 'delete',class: "btn btn-default signOut" %>
+			<%end%>
+		</div>
+	
+</div>

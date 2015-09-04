@@ -1,0 +1,196 @@
+// Place all the styles related to the landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+		    /*//*/***************************************
+			*******//*/**********************************
+			**********       *********      *************
+			********    ***  *********  *****  **********
+			*******  *****************  *****  **********
+			*******  *****************  *****  **********
+			*******  *****************  *****  **********
+			********    ***  *********  ****  ***********
+			**********       ***  ****      ******//*/***
+			*********************************************
+			******** © CodeDis - Sumeet(Lead dev) *//*/**
+			*********************************************
+*/
+.container-fluid{padding: 0;}
+
+
+.start{
+	background-color: #838EC2;
+	width:150px;
+	height:40px;
+	transition:all 0.4s linear;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 3px;
+	margin-top: 4%;
+	color: #ffffff;
+	
+	text-decoration: none;
+
+}
+.start:hover{color:#838EC2;
+	background-color: #ffffff;
+	text-decoration: none;
+	cursor: pointer; cursor: hand;
+    border:1px solid #dfdddf;
+  box-shadow:2px 2px 10px #838EC2 inset,-2px -2px 10px #838EC2 inset;
+  }
+
+.banner{
+	border-bottom: 3px solid #DFE6E6;
+	margin-top: 2%;
+	padding-left: 8%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+
+	
+   }
+.a,.b,.c,.d,.e,.f{height: 202px;display: flex;justify-content: center;align-items: center;}
+.a{background-color: #F06861;}
+.b{background-color: #838EC2;}
+.c{background-color: #F4CA64;}
+
+.d{background-color: #9AD2D9;}
+.e{background-color: #DACA7E;}
+.f{background-color: #9A8076;}
+
+.col-md-2{margin-left:0;margin-right: 0;
+			padding-right: 0;padding-left: 0;}
+
+
+.startt{
+	background-color: #6BC2A0;
+	color: #ffffff;
+	width:150px;
+	height:40px;
+	transition:all 0.4s linear;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	padding-right: 7%;
+	border-radius: 3px;
+	margin-top: 4%;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+.startt:hover{color:#6BC2A0;
+	background-color: #ffffff;
+	text-decoration: none;
+	cursor: pointer; cursor: hand;
+    border:1px solid #dfdddf;
+    box-shadow:2px 2px 10px #6BC2A0 inset,-2px -2px 10px #6BC2A0 inset;
+ }
+
+.mapI{float:left;
+	
+	.compimg{
+		.comp_png{width:600px;}
+	}
+}
+
+.mapT{
+	
+	padding-top: 6%;
+	float: right;
+	margin-right: 6%;
+
+	.mapTB{
+	background-color: #08536F;
+	width:150px;
+	height:40px;
+	transition:all 0.4s linear;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 3px;
+	margin-top: 4%;
+	color: #ffffff;
+	box-shadow:1px 1px 0 #9AD2D9,1px 1px 2px #9AD2D9;
+	text-decoration: none;
+
+}
+.mapTB:hover{color:#08536F;
+	background-color: #ffffff;
+	text-decoration: none;
+	cursor: pointer; cursor: hand;
+    box-shadow:2px 2px 10px #08536F inset,-2px -2px 10px #08536F inset;
+  }	
+
+
+
+}
+
+
+
+
+
+	.wt{
+		padding-top: 10%;
+		padding-left: 15%;
+
+		.wTB{
+	background-color: #9C9E9D;
+	width:150px;
+	height:40px;
+	transition:all 0.4s linear;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 3px;
+	margin-top: 4%;
+	color: #ffffff;
+	box-shadow:1px 1px 0 #9AD2D9,1px 1px 2px #9AD2D9;
+	text-decoration: none;
+
+}
+.wTB:hover{color:#9C9E9D;
+	background-color: #ffffff;
+	text-decoration: none;
+	cursor: pointer; cursor: hand;
+    box-shadow:2px 2px 10px #9C9E9D inset,-2px -2px 10px #9C9E9D inset;
+  }	
+	}
+	.wi{
+		.cw{
+			width: 700px;
+			height: 500px;
+			margin-top: -80px;
+			margin-left: 8%;
+		}
+	}
+
+.catT{padding-left: 15%;padding-top: 10%;}
+
+.tdabba{
+	display: inline-block;
+
+}
+.ti{
+	width:80px;
+	height:80px;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pandit2</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  <%= csrf_meta_tags %>
+</head>
+<body style="font-family: 'Fjalla One', sans-serif;">
+<div class="container-fluid" >
+
+<% if notice %>
+<div class="flashN"><p class="notice" style="color:#ffffff;font-size:16px;"><span class="glyphicon glyphicon-ok"><%= notice %></p></div>
+<%end%>
+<% if alert %>
+<div class="flashA"><p class="notice" style="color:#ffffff;font-size:16px;"><span class="glyphicon glyphicon-alert"></span><%= alert %></p></div>
+<%end%>
+
+
+<%= yield %>
+</div>
+
+</body>
+</html>
